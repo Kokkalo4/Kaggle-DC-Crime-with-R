@@ -14,7 +14,7 @@ library(grid)
 library(gridExtra)
 
 #load file 
-crimedb <- read.csv("c:/users/alex/desktop/r/exercise data/done/crime/crime_homicide_subset.csv" , header = TRUE)
+crimedb <- read.csv(".../input/crime_homicide_subset.csv" , header = TRUE)
 
 #str
 str(crimedb)
